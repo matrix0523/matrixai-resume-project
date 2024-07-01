@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView, routeLocationKey } from 'vue-router'
-import PersonalInfo from '@/components/Index/PersonalInfo.vue';
-import PersonalAdvant from '@/components/Index/PersonalAdvant.vue';
-import PersonalEdu from '@/components/Index/PersonalEdu.vue';
-import PersonalIntern from '@/components/Index/PersonalIntern.vue';
-import PersonalProj from '@/components/Index/PersonalProj.vue';
-import PersonalProf from '@/components/Index/PersonalProf.vue';
-import SiteFront from '@/components/Index/SiteFront.vue'
+import PersonalInfo from '@/components/Info/PersonalInfo.vue';
+import PersonalAdvant from '@/components/Info/PersonalAdvant.vue';
+import PersonalEdu from '@/components/Info/PersonalEdu.vue';
+import PersonalIntern from '@/components/Info/PersonalIntern.vue';
+import PersonalProj from '@/components/Info/PersonalProj.vue';
+import PersonalProf from '@/components/Info/PersonalProf.vue';
+import SiteFront from '@/components/Info/SiteFront.vue'
 </script>
 
 <template>
