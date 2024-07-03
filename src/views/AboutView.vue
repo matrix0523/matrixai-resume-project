@@ -46,81 +46,73 @@ export default {
         </ul>
       </address>
   </div> 
-  <footer>
-      <RouterLink class="footer"  to="/">
-        <h4 style="color: white;">&copy; 2018~2024 创世CreativeAI</h4>
-      </RouterLink>
-    <!-- <RouterView /> -->
-  </footer>
+
 </template>
 <style>
-  body {
-      font-family: Georgia, serif;;
-      margin: auto;
-      background: linear-gradient(to bottom, #4cc7de,#47b4de,#5736ff,#6e36ff,#515de6,#b8009b, #f4009a);
-  }
-  .header {
-      border-radius: 5px;
-      background-color: white;
-      color: white;
-      padding: 20px;
-      text-align: left;
-  }
-  h1 {
-      font-size: 50px;
-      font-family: Georgia, serif;
-      color: black; /* 灰色 */
-  }
-  h2 {
-      font-size: 25px;
-      color: #666; /* 灰色 */
-  }
-  h3 {
-      font-size:medium;
-      font-family:Georgia, serif;
-      color: #666; /* 灰色 */
-  }
-  p {
-      color: #666;
-  }
-  a {
-      color: #008CBA; /* 蓝色 */
-      text-decoration: none;
-  }
-  a:hover {
-      text-decoration: underline;
-  }
-  .content {
-      border-radius: 5px;
-      background-color: white;
-      padding: 20px;
-      margin-top: 20px;
-  }
-  .header img{
-      border-radius: 5px;
-      /* display: flex; */
-      /* margin: 20px; */
-      width: 160px;
-      height: 170px;
-      align-content:end;
-  }
-  .header-h1{
-      text-align: right;
-  }
-  ul{
-    font-size: 18px;
-  }
-  li{
-    font-family: serif;
-  }
-  .footer {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  }
+body {
+    font-family: Georgia, serif;;
+    margin: auto;
+    background: linear-gradient(to bottom, #4cc7de,#47b4de,#5736ff,#6e36ff,#515de6,#b8009b, #f4009a);
+}
+.header {
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+    color: black; /* 灰色 */
+}
+h2 {
+    font-size: 25px;
+    color: #666; /* 灰色 */
+}
+h3 {
+    font-size:medium;
+    font-family:Georgia, serif;
+    color: #666; /* 灰色 */
+}
+p {
+    color: #666;
+}
+a {
+    color: #008CBA; /* 蓝色 */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.content {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.header img{
+    border-radius: 5px;
+    /* display: flex; */
+    /* margin: 20px; */
+    width: 160px;
+    height: 170px;
+    align-content:end;
+}
+.header-h1{
+    text-align: right;
+}
+ul{
+  font-size: 18px;
+}
+li{
+  font-family: serif;
+}
+.footer  {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
 </style>
